@@ -1,0 +1,76 @@
+body {
+  background-color: #F2D7D9;
+}
+.profile{
+  padding: 20px;
+  margin: 20px;
+  position: absolute;
+  top: 70px;
+  background-color: #748DA6;
+  height: 1220px;
+}
+.profile img{
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  border-radius: 5%;
+  position: relative;
+  left: 10px;
+  top: 35px;
+}
+.profile .personal {
+  position: relative;
+  top: 30px;
+}
+
+.name {
+  padding: 10px;
+  margin: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 40px;
+  text-shadow: 2px 2px 2px #ababab;
+}
+
+.information {
+  padding: 40px;
+  margin :20px;
+  position: absolute;
+  top: 70px;
+  left: 400px;
+  background-color: #D3CEDF;
+  height: 1183px;
+
+}
+h2 {
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+}
+table {
+  width: 350px;
+  height: 200px;
+  border-style: solid;
+  border-color: #F2D7D9;
+  border-spacing: 3px;
+}
+table td {
+  padding: 10px;
+  background-color: #F2D7D9;
+}
+table th {
+  border: 1px solid #F2D7D9  ;
+}
+::marker{
+  color: purple;
+}
+
+.social{
+  margin:10px;
+}
+.social a i{
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
